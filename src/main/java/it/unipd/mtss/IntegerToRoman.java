@@ -5,16 +5,27 @@
 package it.unipd.mtss;
 
 public class IntegerToRoman {
-    public static String convert(int number){
-        if (number < 1 || number > 3) {
-            return null; 
+
+    public static String convert(int number) {
+
+        if (number < 1 || number > 6) {
+            return null;
         }
-        
+
+        int[] values = {5, 1};
+
+        String[] symbols = {"V", "I"};
+
         StringBuilder roman = new StringBuilder();
-        while (number >= 1) {
-            roman.append("I");
-            number = number - 1;
+
+        for (int i = 0; i < values.length; i++) {
+
+            while (number >= values[i]) {
+                roman.append(symbols[i]);
+                number -= values[i];
+            }
         }
+
         return roman.toString();
     }
 }
