@@ -1,19 +1,21 @@
 <?xml version="1.0"?>
 <!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN" "https://checkstyle.org/dtds/configuration_1_3.dtd">
 <module name="Checker">
+    <!-- Regole che controllano l'intero file -->
     <module name="FileLength"><property name="max" value="500"/></module>
     <module name="FileTabCharacter"/>
+    <module name="LineLength"><property name="max" value="120"/></module>
 
     <module name="Header">
         <property name="header" value="////////////////////////////////////////////////////////////////////\n// Carol Gardin 2147962\n// Monika Ullah 2116413\n////////////////////////////////////////////////////////////////////"/>
         <property name="fileExtensions" value="java"/>
     </module>
 
+    <!-- Regole che analizzano la struttura del codice Java -->
     <module name="TreeWalker">
         <module name="BooleanExpressionComplexity"/>
         <module name="CyclomaticComplexity"/>
         <module name="MethodLength"/>
-        <module name="LineLength"><property name="max" value="120"/></module>
         <module name="EmptyCatchBlock"/>
         <module name="AvoidStarImport"/>
         <module name="IllegalImport"/>
