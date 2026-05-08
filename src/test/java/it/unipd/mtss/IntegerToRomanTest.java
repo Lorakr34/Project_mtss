@@ -4,6 +4,8 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
+//Aggiornamento test su branch precedentemente errata
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
