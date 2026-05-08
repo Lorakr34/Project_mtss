@@ -41,4 +41,31 @@ public class IntegerToRomanTest {
         assertEquals("VI", IntegerToRoman.convert(6));
     }
 
+    @Test
+    void testConverSette() {
+        int input = 7;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("VII", result);
+    }
+
+    @Test
+    void testConvertOtto() {
+        int input = 8;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("VIII", result);
+    }
+
+    @Test
+    void testConvertNove() {
+        int input = 9;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("IX", result);
+    }
+
+    @Test
+    void testConvertDieci() {
+        int input = 10;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("X", result);
+    }
 }
