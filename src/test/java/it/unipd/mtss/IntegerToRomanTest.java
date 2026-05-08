@@ -23,4 +23,20 @@ public class IntegerToRomanTest {
     void testConvertTre() {
         assertEquals("III", IntegerToRoman.convert(3));
     }
+
+        @Test
+    void testConvertQuattro() {
+        assertEquals("IV", IntegerToRoman.convert(4));
+    }
+
+    @Test
+    void testConverCinque() {
+        assertEquals("V", IntegerToRoman.convert(5));
+    }
+
+    @Test
+    void testConvertSei() {
+        assertEquals("VI", IntegerToRoman.convert(6));
+    }
+
 }
