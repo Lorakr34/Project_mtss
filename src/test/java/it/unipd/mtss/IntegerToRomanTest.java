@@ -1041,7 +1041,7 @@ public class IntegerToRomanTest {
     }
     
     @Test
-    void testConvertCinquanta() {
+    void testConvertCentoCinquanta() {
         int input = 150;
         String result = IntegerToRoman.convert(input);
         assertEquals("CL", result);
