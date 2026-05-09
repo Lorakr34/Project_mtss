@@ -8,18 +8,29 @@ public class IntegerToRoman {
 
     public static String convert(int number) {
 
-        if (number < 1 || number > 100) {
+        if (number < 1 || number > 500) {
             return null;
         }
 
-        int[] values = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+        int[] values = {
+            500, 400,
+            100, 90,
+            50, 40,
+            10, 9,
+            5, 4, 1
+        };
 
-        String[] symbols = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        String[] symbols = {
+            "D", "CD",
+            "C", "XC",
+            "L", "XL",
+            "X", "IX",
+            "V", "IV", "I"
+        };
 
         StringBuilder roman = new StringBuilder();
 
         for (int i = 0; i < values.length; i++) {
-
             while (number >= values[i]) {
                 roman.append(symbols[i]);
                 number -= values[i];
