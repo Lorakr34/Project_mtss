@@ -346,4 +346,354 @@ public class IntegerToRomanTest {
         String result = IntegerToRoman.convert(input);
         assertEquals("L", result);
     }
+
+        @Test
+    void testConvertCinquantuno() {
+        int input = 51;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LI", result);
+    }
+
+    @Test
+    void testConvertCinquantadue() {
+        int input = 52;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LII", result);
+    }
+
+    @Test
+    void testConvertCinquantatre() {
+        int input = 53;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LIII", result);
+    }
+
+    @Test
+    void testConvertCinquantaquattro() {
+        int input = 54;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LIV", result);
+    }
+
+    @Test
+    void testConvertCinquantacinque() {
+        int input = 55;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LV", result);
+    }
+
+    @Test
+    void testConvertCinquantasei() {
+        int input = 56;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LVI", result);
+    }
+
+    @Test
+    void testConvertCinquantasette() {
+        int input = 57;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LVII", result);
+    }
+
+    @Test
+    void testConvertCinquantotto() {
+        int input = 58;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LVIII", result);
+    }
+
+    @Test
+    void testConvertCinquantanove() {
+        int input = 59;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LIX", result);
+    }
+
+    @Test
+    void testConvertSessanta() {
+        int input = 60;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LX", result);
+    }
+
+    @Test
+    void testConvertSessantuno() {
+        int input = 61;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXI", result);
+    }
+
+    @Test
+    void testConvertSessantadue() {
+        int input = 62;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXII", result);
+    }
+
+    @Test
+    void testConvertSessantatre() {
+        int input = 63;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXIII", result);
+    }
+
+    @Test
+    void testConvertSessantaquattro() {
+        int input = 64;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXIV", result);
+    }
+
+    @Test
+    void testConvertSessantacinque() {
+        int input = 65;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXV", result);
+    }
+
+    @Test
+    void testConvertSessantasei() {
+        int input = 66;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXVI", result);
+    }
+
+    @Test
+    void testConvertSessantasette() {
+        int input = 67;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXVII", result);
+    }
+
+    @Test
+    void testConvertSessantotto() {
+        int input = 68;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXVIII", result);
+    }
+
+    @Test
+    void testConvertSessantanove() {
+        int input = 69;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXIX", result);
+    }
+
+    @Test
+    void testConvertSettanta() {
+        int input = 70;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXX", result);
+    }
+
+    @Test
+    void testConvertSettantuno() {
+        int input = 71;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXI", result);
+    }
+
+    @Test
+    void testConvertSettantadue() {
+        int input = 72;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXII", result);
+    }
+
+    @Test
+    void testConvertSettantatre() {
+        int input = 73;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXIII", result);
+    }
+
+    @Test
+    void testConvertSettantaquattro() {
+        int input = 74;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXIV", result);
+    }
+
+    @Test
+    void testConvertSettantacinque() {
+        int input = 75;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXV", result);
+    }
+
+    @Test
+    void testConvertSettantasei() {
+        int input = 76;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXVI", result);
+    }
+
+    @Test
+    void testConvertSettantasette() {
+        int input = 77;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXVII", result);
+    }
+
+    @Test
+    void testConvertSettantotto() {
+        int input = 78;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXVIII", result);
+    }
+
+    @Test
+    void testConvertSettantanove() {
+        int input = 79;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXIX", result);
+    }
+
+    @Test
+    void testConvertOttanta() {
+        int input = 80;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXX", result);
+    }
+
+    @Test
+    void testConvertOttantuno() {
+        int input = 81;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXI", result);
+    }
+
+    @Test
+    void testConvertOttantadue() {
+        int input = 82;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXII", result);
+    }
+
+    @Test
+    void testConvertOttantatre() {
+        int input = 83;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXIII", result);
+    }
+
+    @Test
+    void testConvertOttantaquattro() {
+        int input = 84;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXIV", result);
+    }
+
+    @Test
+    void testConvertOttantacinque() {
+        int input = 85;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXV", result);
+    }
+
+    @Test
+    void testConvertOttantasei() {
+        int input = 86;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXVI", result);
+    }
+
+    @Test
+    void testConvertOttantasette() {
+        int input = 87;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXVII", result);
+    }
+
+    @Test
+    void testConvertOttantotto() {
+        int input = 88;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXVIII", result);
+    }
+
+    @Test
+    void testConvertOttantanove() {
+        int input = 89;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("LXXXIX", result);
+    }
+
+    @Test
+    void testConvertNovanta() {
+        int input = 90;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XC", result);
+    }
+
+    @Test
+    void testConvertNovantuno() {
+        int input = 91;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCI", result);
+    }
+
+    @Test
+    void testConvertNovantadue() {
+        int input = 92;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCII", result);
+    }
+
+    @Test
+    void testConvertNovantatre() {
+        int input = 93;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCIII", result);
+    }
+
+    @Test
+    void testConvertNovantaquattro() {
+        int input = 94;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCIV", result);
+    }
+
+    @Test
+    void testConvertNovantacinque() {
+        int input = 95;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCV", result);
+    }
+
+    @Test
+    void testConvertNovantasei() {
+        int input = 96;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCVI", result);
+    }
+
+    @Test
+    void testConvertNovantasette() {
+        int input = 97;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCVII", result);
+    }
+
+    @Test
+    void testConvertNovantotto() {
+        int input = 98;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCVIII", result);
+    }
+
+    @Test
+    void testConvertNovantanove() {
+        int input = 99;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XCIX", result);
+    }
+
+    @Test
+    void testConvertCento() {
+        int input = 100;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("C", result);
+    }
 }
