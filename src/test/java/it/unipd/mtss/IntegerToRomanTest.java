@@ -4,8 +4,6 @@
 ////////////////////////////////////////////////////////////////////
 package it.unipd.mtss;
 
-//Aggiornamento test su branch precedentemente errata
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
@@ -42,7 +40,7 @@ public class IntegerToRomanTest {
     }
 
     @Test
-    void testConverSette() {
+    void testConvertSette() {
         int input = 7;
         String result = IntegerToRoman.convert(input);
         assertEquals("VII", result);
@@ -67,5 +65,75 @@ public class IntegerToRomanTest {
         int input = 10;
         String result = IntegerToRoman.convert(input);
         assertEquals("X", result);
+    }
+
+        @Test
+    void testConvertUndici() {
+        int input = 11;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XI", result);
+    }
+
+    @Test
+    void testConvertDodici() {
+        int input = 12;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XII", result);
+    }
+
+    @Test
+    void testConvertTredici() {
+        int input = 13;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XIII", result);
+    }
+
+    @Test
+    void testConvertQuattordici() {
+        int input = 14;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XIV", result);
+    }
+
+    @Test
+    void testConvertQuindici() {
+        int input = 15;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XV", result);
+    }
+
+    @Test
+    void testConvertSedici() {
+        int input = 16;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XVI", result);
+    }
+
+    @Test
+    void testConvertDiciassette() {
+        int input = 17;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XVII", result);
+    }
+
+    @Test
+    void testConvertDiciotto() {
+        int input = 18;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XVIII", result);
+    }
+
+    @Test
+    void testConvertDiciannove() {
+        int input = 19;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XIX", result);
+    }
+
+    @Test
+    void testConvertVenti() {
+        int input = 20;
+        String result = IntegerToRoman.convert(input);
+        assertEquals("XX", result);
     }
 }
