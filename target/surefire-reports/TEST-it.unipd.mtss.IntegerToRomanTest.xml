@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="it.unipd.mtss.IntegerToRomanTest" time="3.032" tests="1000" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="it.unipd.mtss.IntegerToRomanTest" time="2.233" tests="1000" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\CAROL\AppData\Local\Temp\surefire8564231968672569001\surefirebooter-20260510135829856_3.jar C:\Users\CAROL\AppData\Local\Temp\surefire8564231968672569001 2026-05-10T13-58-29_447-jvmRun1 surefire-20260510135829856_1tmp surefire_0-20260510135829856_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\CAROL\AppData\Local\Temp\surefire2629483525519130427\surefirebooter-20260510141348241_3.jar C:\Users\CAROL\AppData\Local\Temp\surefire2629483525519130427 2026-05-10T14-13-47_862-jvmRun1 surefire-20260510141348241_1tmp surefire_0-20260510141348241_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\CAROL\Desktop\metodi\roman-number\target\test-classes;C:\Users\CAROL\Desktop\metodi\roman-number\target\classes;C:\Users\CAROL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\CAROL\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\CAROL\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\CAROL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\CAROL\AppData\Local\Temp\surefire8564231968672569001\surefirebooter-20260510135829856_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\CAROL\AppData\Local\Temp\surefire2629483525519130427\surefirebooter-20260510141348241_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19+36-2238"/>
@@ -58,297 +58,297 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testConvertCinquecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.341"/>
-  <testcase name="testConvertTrecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertTrecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCinquecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.139"/>
+  <testcase name="testConvertTrecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertTrecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertTrecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertTrecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertOttocentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertSeicentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertTrecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertQuattrocentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertTrecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
   <testcase name="testConvertOttocentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
   <testcase name="testConvertTrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertTrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSeicentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.01"/>
+  <testcase name="testConvertSeicentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertTrecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertTrecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentoottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentoottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertNovecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertDuecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
+  <testcase name="testConvertOttocentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
   <testcase name="testConvertOttocentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.01"/>
-  <testcase name="testConvertTrecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.009"/>
+  <testcase name="testConvertOttocentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertSeicentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.007"/>
-  <testcase name="testConvertQuattrocentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.024"/>
-  <testcase name="testConvertCentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.016"/>
-  <testcase name="testConvertSettecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertOttocentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSeicentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOtto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertNove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOtto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.007"/>
+  <testcase name="testConvertCentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSeicentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
   <testcase name="testConvertDuecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.007"/>
+  <testcase name="testConvertQuattrocentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentoottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCentoottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentoottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCinquecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
   <testcase name="testConvertSettecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
+  <testcase name="testConvertQuattrocentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertDuecentoottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertSettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertDuecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentoNovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertTrecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSeicentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertTrecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.006"/>
-  <testcase name="testConvertTrecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertNovecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertSettecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertNovecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertNovecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertOttocentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertSettecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertOttocentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertNovecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertDuecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertNovecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertSettecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertOttocentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertQuarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertQuarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoNovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentoNovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSeicentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertQuattrocentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertDuecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -362,135 +362,135 @@
   <testcase name="testConvertQuattrocentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertTrecentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertDuecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
   <testcase name="testConvertCentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
-  <testcase name="testConvertTrecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.008"/>
-  <testcase name="testConvertDuecentoottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertDuecentoottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentoottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertDuecentoottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCinquecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertNovecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertSeicentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertDuecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertSettecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertSettecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertOttocentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertCinquecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertNovecentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertQuattrocentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCinquecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.013"/>
-  <testcase name="testConvertNovecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.017"/>
-  <testcase name="testConvertNovecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
-  <testcase name="testConvertCentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.008"/>
+  <testcase name="testConvertNovecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertCinquecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoNovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.01"/>
-  <testcase name="testConvertSettecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertUndici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertNovecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertVentidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertVentisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertVentitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertVentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
+  <testcase name="testConvertSettecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertOttocentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -498,30 +498,30 @@
   <testcase name="testConvertNovecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoNovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentoNovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -531,68 +531,68 @@
   <testcase name="testConvertOttocentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCinquecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
-  <testcase name="testConvertCentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
+  <testcase name="testConvertCinquecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
+  <testcase name="testConvertCentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertNovecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertOttanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.016"/>
+  <testcase name="testConvertCinquecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertQuattrocentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.005"/>
+  <testcase name="testConvertSeicentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertQuattrocentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.01"/>
+  <testcase name="testConvertCinquecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -601,34 +601,34 @@
   <testcase name="testConvertDuecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertCinquecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoNovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentoNovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoNovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertCentoNovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentoNovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoNovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentoNovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
   <testcase name="testConvertSettecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertDuecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertVentisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertVentisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -637,147 +637,147 @@
   <testcase name="testConvertNovecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertQuattrocentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.004"/>
-  <testcase name="testConvertCentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentocinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.008"/>
+  <testcase name="testConvertCinquecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentoquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentoCinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertTrecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentotrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertTrecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentonovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoUno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSeicentotrentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosessanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentosettanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentoventinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
@@ -786,52 +786,52 @@
   <testcase name="testConvertOttocentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentonovantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentonovantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSettecentonovantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentonovantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentocinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertDuecentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosettantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCinquecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertOttocentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertTrecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
@@ -840,222 +840,222 @@
   <testcase name="testConvertOttocentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertVentinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertVentinove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertOttocentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTrecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertVenticinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertVenticinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentonovantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocquindici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertTre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertUno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertTrecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertOttocentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertUno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertOttocentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentoventuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentoquarantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentoquarantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentoquarantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentoquarantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertNovecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentottantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentodiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertVentiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertQuattrocentocinquantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertVentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertVentuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentodue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentosei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentotre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentouno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDiciotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertNovecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertSettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettecentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSettecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettecentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentoquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentoventiquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttocentoventisette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentoventidue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentoventisei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertSeicentoventitre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentoventotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertNovecentosettantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="testConvertCentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertQuattrocentocinquanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentotrentanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentoquarantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.003"/>
+  <testcase name="testConvertCento" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertMille" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentonovantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertVenti" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertVenti" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentotrentasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCentoquarantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentocinquantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentonove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentootto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettecentosessantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentonovantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertNovecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentosessantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoquarantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentottantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentottantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentottantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentottantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertDuecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertDuecentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertDuecentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentodiciassette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertTrecentotrentacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertOttocentosedici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertNovecentonovantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentosettantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentotrentadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentotrentasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentotrentatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentocinquantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocinquantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCentocinquantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentotrentotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocinquantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertOttantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertDuecentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosessantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentosettantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentotrenta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentottanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentottantanove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentodieci" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentoundici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentosette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentosettantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSeicentosettantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertOttocentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentoottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentosettantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSeicentosettantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertOttocentoventi" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertCinquecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertSessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertDuecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertNovecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCinquecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertSessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertDuecentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentoventicinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertNovecentosessantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertCinquecentodiciannove" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentoquarantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentosettantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCinquecentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentosessantadue" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
+  <testcase name="testConvertSeicentosessantasei" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertSeicentosessantatre" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSeicentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
-  <testcase name="testConvertCentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentosessantotto" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentosessantasette" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentottantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertCentoNovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCinquecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertQuattrocentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertQuattrocentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertTrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentoNovantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCinquecentotredici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrecentottantaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertQuattrocentonovanta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertQuattrocentocinquantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertTrentaquattro" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
   <testcase name="testConvertCentocinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
-  <testcase name="testConvertSettecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSettecentoquarantuno" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="testConvertQuattrocentottantacinque" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertSeicentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertCentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
-  <testcase name="testConvertTrecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.0"/>
+  <testcase name="testConvertSeicentoquattordici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertCentododici" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testConvertTrecentoquaranta" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
 </testsuite>
