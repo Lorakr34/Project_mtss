@@ -25,14 +25,36 @@ public class RomanPrinter {
 
     private static String[] getCharAscii(char c) {
         switch (c) {
-            case 'I': return new String[]{" _____ ", "|_   _|", "  | |  ", "  | |  ", " _| |_ ", "|_____|"};
-            case 'V': return new String[]{"__      __", "\\ \\    / /", " \\ \\  / / ", "  \\ \\/ /  ", "   \\  /   ", "    \\/    "};
-            case 'X': return new String[]{"__   __", "\\ \\ / /", " \\ V / ", "  > <  ", " / . \\ ", "/_/ \\_\\"};
-            case 'L': return new String[]{" _      ", "| |     ", "| |     ", "| |     ", "| |____ ", "|______|"};
-            case 'C': return new String[]{"  _____ ", " / ____|", "| |     ", "| |     ", "| |____ ", " \\_____|"};
-            case 'D': return new String[]{" _____  ", "|  __ \\ ", "| |  | |", "| |  | |", "| |__| |", "|_____/ "};
-            case 'M': return new String[]{" __  __ ", "|  \\/  |", "| \\  / |", "| |\\/| |", "| |  | |", "|_|  |_|"};
-            default: return new String[]{"", "", "", "", "", ""};
+            case 'I':
+                return new String[]{
+                    " _____ ", "|_   _|", "  | |  ", "  | |  ", " _| |_ ", "|_____|"
+                };
+            case 'V':
+                return new String[]{
+                    "__      __", "\\ \\    / /", " \\ \\  / / ", "  \\ \\/ /  ", "   \\  /   ", "    \\/    "
+                };
+            case 'X':
+                return new String[]{
+                    "__   __", "\\ \\ / /", " \\ V / ", "  > <  ", " / . \\ ", "/_/ \\_\\"
+                };
+            case 'L':
+                return new String[]{
+                    " _      ", "| |     ", "| |     ", "| |     ", "| |____ ", "|______|"
+                };
+            case 'C':
+                return new String[]{
+                    "  _____ ", " / ____|", "| |     ", "| |     ", "| |____ ", " \\_____|"
+                };
+            case 'D':
+                return new String[]{
+                    " _____  ", "|  __ \\ ", "| |  | |", "| |  | |", "| |__| |", "|_____/ "
+                };
+            case 'M':
+                return new String[]{
+                    " __  __ ", "|  \\/  |", "| \\  / |", "| |\\/| |", "| |  | |", "|_|  |_|"
+                };
+            default:
+                return new String[]{"", "", "", "", "", ""};
         }
     }
 }
